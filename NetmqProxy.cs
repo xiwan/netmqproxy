@@ -8,7 +8,7 @@ using System.Threading;
 namespace ZinEngine.Framework
 {
     // author: xiwan
-    public class EnhanceProxy
+    public class NetmqProxy
     {
         [NotNull] private readonly NetMQSocket m_frontend;
         [NotNull] private readonly NetMQSocket m_backend;
